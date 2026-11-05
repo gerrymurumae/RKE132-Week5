@@ -1,0 +1,17 @@
+#Kirjuta programm, mis käib läbi iga tähe sõnes ja prindib selle välja.
+
+text = "hello"
+
+""" for i in text: 
+    print(i) """
+
+#Prindi sõne tagurpidi (viimasest tähemärgist esimese juurde, iga täht sõnest kuvatakse eraldi reale tagurpidi järjekorras).
+
+
+lenght = len(text)
+print(lenght)
+
+
+for letter in range(len(text) -1, -1, -1):
+    print(text[letter])
+
